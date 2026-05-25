@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARKATELIA | Investigación en Antocianinas</title>
+    <style>
+        /* Paleta de colores inspirada en las antocianinas (tonos bayas, morados y fondos limpios) */
+        :root {
+            --primary: #5c1d42; /* Morado/Antocianina profundo */
+            --secondary: #9c3d6d; /* Tono magenta/baya */
+            --dark: #2b2d42;
+            --light: #f7f9fa;
+            --accent: #e2cfea;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--light);
+            color: var(--dark);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        /* Encabezado Principal */
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            letter-spacing: 2px;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 700px;
+            margin: 15px auto 0 auto;
+        }
+
+        /* Navegación */
+        nav {
+            background-color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: var(--primary);
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--secondary);
+        }
+
+        /* Contenedor */
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* Secciones */
+        section {
+            background-color: white;
+            padding: 35px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+            border-left: 5px solid var(--primary);
+        }
+
+        h2 {
+            color: var(--primary);
+            margin-top: 0;
+            font-size: 1.8rem;
+        }
+
+        /* Grid de Investigación */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background-color: var(--light);
+            padding: 20px;
+            border-radius: 6px;
+            border: 1px solid #e1e8ed;
+        }
+
+        .card h3 {
+            color: var(--secondary);
+            margin-top: 0;
+        }
+
+        /* Destacados / Citas */
+        .highlight {
+            background-color: var(--accent);
+            color: var(--primary);
+            padding: 15px;
+            border-radius: 6px;
+            font-weight: 500;
+            margin: 20px 0;
+        }
+
+        /* Pie de página */
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+            border-top: 1px solid #e1e8ed;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ARKATELIA</h1>
+        <p>Proyecto de Investigación Científica sobre las Propiedades, Estabilidad y Aplicaciones de las Antocianinas</p>
+    </header>
+
+    <nav>
+        <a href="#introduccion">Introducción</a>
+        <a href="#objetivos">Líneas de Investigación</a>
+        <a href="#metodologia">Metodología</a>
+    </nav>
+
+    <div class="container">
+        
+        <section id="introduccion">
+            <h2>Introducción a las Antocianinas</h2>
+            <p>Las antocianinas son pigmentos hidrosolubles pertenecientes a la familia de los flavonoides, responsables de los colores rojos, púrpuras y azules en una gran variedad de frutas, vegetales y flores. Más allá de su valor estético, destacan por su alta capacidad antioxidante y sus potenciales beneficios para la salud humana y la industria alimentaria.</p>
+            
+            <div class="highlight">
+                El proyecto <strong>ARKATELIA</strong> nace para profundizar en el comportamiento químico de estos metabolitos secundarios bajo diferentes condiciones de estrés y sus aplicaciones biotecnológicas.
+            </div>
+        </section>
+
+        <section id="objetivos">
+            <h2>Líneas de Investigación</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>1. Extracción y Cuantificación</h3>
+                    <p>Optimización de protocolos de extracción eficientes y sostenibles, utilizando disolventes seguros para aislar antocianinas de fuentes vegetales seleccionadas.</p>
+                </div>
+                <div class="card">
+                    <h3>2. Estabilidad Química</h3>
+                    <p>Análisis de la degradación y el comportamiento del pigmento frente a variables críticas como cambios de pH, temperatura y exposición a la luz.</p>
+                </div>
+                <div class="card">
+                    <h3>3. Capacidad Antioxidante</h3>
+                    <p>Evaluación del potencial de bioactividad in vitro para neutralizar radicales libres y su viabilidad como conservante natural.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="metodologia">
+            <h2>Metodología y Avances</h2>
+            <p>La investigación de ARKATELIA combina técnicas cromatográficas y espectrofotométricas para el monitoreo preciso de las muestras. Nos enfocamos en la reproducibilidad científica y en la búsqueda de aplicaciones industriales viables que puedan sustituir a los colorantes artificiales tradicionales.</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 ARKATELIA Research Project. Todos los derechos reservados.</p>
+        <p>Investigación y Desarrollo en Fitoquímica.</p>
+    </footer>
+
+</body>
+</html>
